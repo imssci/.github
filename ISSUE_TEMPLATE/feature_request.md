@@ -18,7 +18,7 @@ assignees: ''
 ## 🛠 Detalle Técnico del Cambio
 Detallar a nivel técnico que cambios deben hacerse, aquí normalmente iria una task list.
 
-## 📂 Recursos y Archivos Útiles
+## 📂 Recursos y Archivos Útiles 
 Si hay funciones que faciliten el trabajo o archivos específicos que se deban (o no) modificar, indicarlo aqui:
 
 - **Archivos sugeridos a modificar:** 
@@ -26,10 +26,6 @@ Si hay funciones que faciliten el trabajo o archivos específicos que se deban (
 - **Funciones sugeridas a utilizar:** 
   - `apiService.post()`
   - `formatDate()`
-
-## 📋 Criterios de Aceptación
-- [ ] La funcionalidad cumple con la historia de usuario.
-- [ ] Etc
 
 ## 📝 Información de Control
 - **Propone:** 
