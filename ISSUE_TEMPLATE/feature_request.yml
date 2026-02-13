@@ -1,0 +1,65 @@
+name: "🚀 Nueva Funcionalidad (Feature)"
+description: "Para proponer cambios en lógica, nuevos reportes o flujos."
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Propuesta de Mejora
+        Gracias por tomarte el tiempo de sugerir una nueva funcionalidad. Por favor, detalla el valor de negocio y los aspectos técnicos.
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: "📖 Contexto"
+      description: "¿Cuál es la brecha entre el sistema y la operación real? ¿Por qué es necesaria esta mejora?"
+      placeholder: "Describe el problema o la oportunidad que identificaste..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: historia_usuario
+    attributes:
+      label: "👤 Historia de Usuario"
+      description: "Define el rol, la acción y el beneficio."
+      value: |
+        **Como** [Rol del usuario]  
+        **Necesito** [Acción o funcionalidad]  
+        **Para** [Valor o beneficio de negocio]
+    validations:
+      required: true
+
+  - type: textarea
+    id: detalle_tecnico
+    attributes:
+      label: "🛠 Detalle Técnico del Cambio"
+      description: "Detalla a nivel técnico qué cambios deben hacerse (puedes usar una lista de tareas)."
+      placeholder: "- [ ] Crear el endpoint...\n- [ ] Modificar el estado global..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: recursos
+    attributes:
+      label: "📂 Recursos y Archivos Útiles"
+      description: "Funciones, componentes o archivos específicos involucrados."
+      value: |
+        - **Archivos sugeridos a modificar:** - `src/path/archivo.js`
+        - **Funciones sugeridas a utilizar:** - `ejemploFuncion()`
+    validations:
+      required: false
+
+  - type: input
+    id: propone
+    attributes:
+      label: "📝 Propone"
+      placeholder: "Nombre de la persona que propone la mejora"
+    validations:
+      required: true
+
+  - type: input
+    id: acepta
+    attributes:
+      label: "📝 Acepta"
+      placeholder: "Nombre del responsable que aprueba el cambio"
