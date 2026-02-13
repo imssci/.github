@@ -14,7 +14,7 @@ body:
     attributes:
       label: "📖 Contexto"
       description: "¿Cuál es la brecha entre el sistema y la operación real? ¿Por qué es necesaria esta mejora?"
-      placeholder: "Describe el problema o la oportunidad que identificaste..."
+      placeholder: "Describe todo lo necesario para entender el problema..."
     validations:
       required: true
 
@@ -24,9 +24,9 @@ body:
       label: "👤 Historia de Usuario"
       description: "Define el rol, la acción y el beneficio."
       value: |
-        **Como** [Rol del usuario]  
-        **Necesito** [Acción o funcionalidad]  
-        **Para** [Valor o beneficio de negocio]
+        Como [Rol del usuario]  
+        Necesito [Acción o funcionalidad]  
+        Para [Valor o beneficio de negocio]
     validations:
       required: true
 
@@ -36,17 +36,6 @@ body:
       label: "🛠 Detalle Técnico del Cambio"
       description: "Detalla a nivel técnico qué cambios deben hacerse (puedes usar una lista de tareas)."
       placeholder: "- [ ] Crear el endpoint...\n- [ ] Modificar el estado global..."
-    validations:
-      required: false
-
-  - type: textarea
-    id: recursos
-    attributes:
-      label: "📂 Recursos y Archivos Útiles"
-      description: "Funciones, componentes o archivos específicos involucrados."
-      value: |
-        - **Archivos sugeridos a modificar:** - `src/path/archivo.js`
-        - **Funciones sugeridas a utilizar:** - `ejemploFuncion()`
     validations:
       required: false
 
