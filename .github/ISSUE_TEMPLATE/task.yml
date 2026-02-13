@@ -1,0 +1,33 @@
+name: "🛠️ Tarea Técnica (Task)"
+description: "Para mantenimientos, refactorizaciones, deuda técnica o infraestructura."
+title: "[TASK]: "
+labels: ["task"]
+assignees: ["Lur0y"]
+type: task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚙️ Ejecución Técnica
+        Gracias por documentar esta tarea. Las tareas técnicas aseguran la salud a largo plazo del proyecto y la escalabilidad del sistema.
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: "🎯 Objetivo de la Tarea"
+      description: "¿Qué se busca lograr con este cambio técnico? (Ej: Reducir latencia, limpiar código muerto, actualizar dependencias)."
+      placeholder: "Describe el propósito técnico de esta intervención..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist_implementacion
+    attributes:
+      label: "📋 Checklist de Implementación"
+      description: "Pasos técnicos específicos para completar la tarea."
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ]
+    validations:
+      required: true

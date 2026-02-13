@@ -1,0 +1,30 @@
+name: "📄 Documentación (Docs)"
+description: "Para crear, actualizar o corregir manuales, guías y READMEs."
+title: "[DOCS]: "
+labels: ["documentation"]
+assignees: ["Lur0y"]
+type: docs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📚 Mejora de la Documentación
+        Una buena documentación es tan importante como el código. Gracias por ayudar a mantener el proyecto claro y accesible.
+
+  - type: textarea
+    id: secciones_afectadas
+    attributes:
+      label: "📍 Secciones Afectadas"
+      description: "¿Qué documentos o archivos necesitan atención? (Ej: README.md, Guía de Instalación, Documentación de API)."
+      placeholder: "Indica las rutas de los archivos o nombres de los documentos..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: cambio_necesario
+    attributes:
+      label: "🔍 Descripción del Cambio"
+      description: "¿Qué falta o qué está mal? (Ej: Información obsoleta, falta un paso en el setup, error gramatical)."
+      placeholder: "Describe qué información debe ser añadida o corregida..."
+    validations:
+      required: true
