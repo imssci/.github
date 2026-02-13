@@ -26,9 +26,9 @@ body:
       label: "👤 Historia de Usuario"
       description: "Define el rol, la acción y el beneficio."
       value: |
-        Como [Rol del usuario]  
-        Necesito [Acción o funcionalidad]  
-        Para [Valor o beneficio de negocio]
+        **Como** [Rol del usuario]  
+        **Necesito** [Acción o funcionalidad]  
+        **Para** [Valor o beneficio de negocio]
     validations:
       required: true
 
