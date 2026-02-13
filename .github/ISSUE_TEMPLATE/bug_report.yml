@@ -2,6 +2,8 @@ name: "🐞 Reporte de Error (Bug)"
 description: "Para informar algo que no funciona como debería."
 title: "[BUG]: "
 labels: ["bug"]
+assignees: ["Lur0y"]
+type: bug
 body:
   - type: markdown
     attributes:
@@ -36,30 +38,5 @@ body:
       label: "📉 Comportamiento Esperado vs. Actual"
       description: "Compara lo que debería pasar con lo que realmente sucede."
       placeholder: "- Esperado: ... \n- Actual: ..."
-    validations:
-      required: true
-
-  - type: input
-    id: guia_tecnica
-    attributes:
-      label: "📂 Guía Técnica (Dónde investigar)"
-      description: "Menciona archivos, funciones o contexto técnico sospechoso."
-      placeholder: "Ej: src/path/archivo.ext | nombreDeLaFuncion()"
-
-  - type: checkboxes
-    id: criterios
-    attributes:
-      label: "📋 Criterios de Corrección"
-      options:
-        - label: "El error ya no ocurre bajo los pasos de reproducción."
-        - label: "Se han validado casos borde (ej. datos nulos, strings vacíos)."
-        - label: "No afecta funcionalidades relacionadas."
-
-  - type: input
-    id: reporte_info
-    attributes:
-      label: "📝 Información de Control"
-      description: "¿Quién reporta este error?"
-      placeholder: "Tu nombre completo"
     validations:
       required: true

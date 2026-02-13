@@ -54,3 +54,5 @@ body:
     attributes:
       label: "📝 Acepta"
       placeholder: "Nombre del responsable que aprueba el cambio"
+    validations:
+      required: true
