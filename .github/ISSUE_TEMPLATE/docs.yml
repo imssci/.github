@@ -3,7 +3,7 @@ description: "Para crear, actualizar o corregir manuales, guías y READMEs."
 title: "[DOCS]: "
 labels: ["documentation"]
 assignees: ["Lur0y"]
-type: docs
+type: task
 body:
   - type: markdown
     attributes:
