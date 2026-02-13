@@ -2,6 +2,8 @@ name: "🚀 Nueva Funcionalidad (Feature)"
 description: "Para proponer cambios en lógica, nuevos reportes o flujos."
 title: "[FEATURE]: "
 labels: ["enhancement"]
+assignees: ["Lur0y"]
+type: feature
 body:
   - type: markdown
     attributes:
