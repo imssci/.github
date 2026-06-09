@@ -39,8 +39,9 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
+    id: importante
     attributes:
+      label: "📌 Importante"
       value: |
-        ---
-        > 📌 **Importante:** Lee con mucho cuidado la documentación del caso de uso antes de escribir una sola línea de código. Si algo no queda claro o existe ambigüedad en el flujo, **no asumas** — consulta con tu responsable o jefe inmediato antes de continuar.
+        > Lee con mucho cuidado la documentación del caso de uso antes de escribir una sola línea de código. Si algo no queda claro o existe ambigüedad en el flujo, **no asumas** — consulta con tu responsable o jefe inmediato antes de continuar.
