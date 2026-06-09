@@ -1,0 +1,46 @@
+name: "📋 Implementar Caso de Uso"
+description: "Para implementar un caso de uso cuyo contexto y flujo están definidos en la documentación del backend (readme/)."
+title: "[CU]: "
+labels: ["use-case"]
+assignees: ["Lur0y"]
+type: feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📖 Antes de continuar
+        La mayor parte del contexto de este caso de uso ya está documentada en los archivos `readme/` del backend.
+        Consulta el documento correspondiente antes de iniciar la implementación.
+
+        > ⚠️ Si el caso de uso aún no tiene documento en `readme/`, créalo primero siguiendo el estándar existente.
+
+  - type: input
+    id: cu_referencia
+    attributes:
+      label: "🔖 Caso de Uso de Referencia"
+      description: "Identificador y nombre del caso de uso tal como aparece en la documentación."
+      placeholder: "Ej: CU01 – Agendar Cita (Portal Público)"
+    validations:
+      required: true
+
+  - type: input
+    id: propone
+    attributes:
+      label: "📝 Propone"
+      placeholder: "Nombre de quien abre el issue"
+    validations:
+      required: true
+
+  - type: input
+    id: acepta
+    attributes:
+      label: "📝 Acepta"
+      placeholder: "Nombre del responsable que aprueba la implementación"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > 📌 **Importante:** Lee con mucho cuidado la documentación del caso de uso antes de escribir una sola línea de código. Si algo no queda claro o existe ambigüedad en el flujo, **no asumas** — consulta con tu responsable o jefe inmediato antes de continuar.
